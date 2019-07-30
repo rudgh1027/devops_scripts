@@ -53,5 +53,4 @@ New-AzVM -ResourceGroupName $rg.ResourceGroupName -Location $rg.Location -VM $vm
 $pip_name=$pip.name
 $pip = get-AzPublicIpAddress -name $pip_name
 
-ssh gkadmin@$pip.ipAddress
 
